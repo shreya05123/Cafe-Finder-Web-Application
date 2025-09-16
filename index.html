@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Café Finder (Free)</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Leaflet Maps -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <!-- Hammer.js for swipe gestures -->
+  <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js"></script>
+</head>
+
+<body>
+  <h1>☕ Café Finder</h1>
+
+  <!-- Search bar -->
+  <div id="search">
+    <input type="text" id="placeInput" placeholder="Enter location (e.g. Koramangala)">
+    <button onclick="findCafes()">Find Cafés</button>
+    <button onclick="showSaved()">Saved Cafés</button>
+  </div>
+
+  <!-- Map -->
+  <div id="map"></div>
+
+  <!-- Cards UI -->
+  <div class="cards"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

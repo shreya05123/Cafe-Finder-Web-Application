@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  background: #6a4c93;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#search {
+  margin: 10px;
+}
+
+#placeInput {
+  padding: 8px;
+  width: 250px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-left: 5px;
+  border: none;
+  background: #ff6b6b;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff4757;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+.cards {
+  margin: 20px auto;
+  max-width: 400px;
+  position: relative;
+}
+
+.location-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.location-card img {
+  width: 100%;
+  border-radius: 10px;
+}
