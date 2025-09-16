@@ -62,6 +62,6 @@ To run this project, follow these steps:
 
 This project was developed by:
 
-- **[Shreya Raheev]** ([])
+- **Shreya Rajeev** (https://github.com/shreya05123)
 
 ---
